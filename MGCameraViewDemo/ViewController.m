@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MGCameraViewVC.h"
 
 @interface ViewController ()
 
@@ -25,5 +26,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)onButtonAction:(id)sender {
+    MGCameraViewVC *vc = [[MGCameraViewVC alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 
 @end

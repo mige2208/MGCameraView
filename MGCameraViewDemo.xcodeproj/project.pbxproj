@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		171CECD020BFAB2A001F28C2 /* MGAssetWriteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 171CECCF20BFAB2A001F28C2 /* MGAssetWriteManager.m */; };
 		177D0D6F20AC229500D2BF55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 177D0D6E20AC229500D2BF55 /* AppDelegate.m */; };
 		177D0D7220AC229500D2BF55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 177D0D7120AC229500D2BF55 /* ViewController.m */; };
 		177D0D7520AC229500D2BF55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 177D0D7320AC229500D2BF55 /* Main.storyboard */; };
 		177D0D7720AC229500D2BF55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177D0D7620AC229500D2BF55 /* Assets.xcassets */; };
 		177D0D7A20AC229500D2BF55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 177D0D7820AC229500D2BF55 /* LaunchScreen.storyboard */; };
 		177D0D7D20AC229500D2BF55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 177D0D7C20AC229500D2BF55 /* main.m */; };
+		177D0D8620AC248D00D2BF55 /* MGCameraViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 177D0D8420AC248D00D2BF55 /* MGCameraViewVC.m */; };
+		177D0D8720AC248E00D2BF55 /* MGCameraViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 177D0D8520AC248D00D2BF55 /* MGCameraViewVC.xib */; };
+		177D0D8A20AC24EC00D2BF55 /* MGCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 177D0D8920AC24EC00D2BF55 /* MGCameraView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		171CECCE20BFAB2A001F28C2 /* MGAssetWriteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGAssetWriteManager.h; sourceTree = "<group>"; };
+		171CECCF20BFAB2A001F28C2 /* MGAssetWriteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGAssetWriteManager.m; sourceTree = "<group>"; };
 		177D0D6A20AC229500D2BF55 /* MGCameraViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGCameraViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		177D0D6D20AC229500D2BF55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		177D0D6E20AC229500D2BF55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +32,11 @@
 		177D0D7920AC229500D2BF55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		177D0D7B20AC229500D2BF55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		177D0D7C20AC229500D2BF55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		177D0D8320AC248D00D2BF55 /* MGCameraViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGCameraViewVC.h; sourceTree = "<group>"; };
+		177D0D8420AC248D00D2BF55 /* MGCameraViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGCameraViewVC.m; sourceTree = "<group>"; };
+		177D0D8520AC248D00D2BF55 /* MGCameraViewVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MGCameraViewVC.xib; sourceTree = "<group>"; };
+		177D0D8820AC24EC00D2BF55 /* MGCameraView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGCameraView.h; sourceTree = "<group>"; };
+		177D0D8920AC24EC00D2BF55 /* MGCameraView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGCameraView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +69,32 @@
 		177D0D6C20AC229500D2BF55 /* MGCameraViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				177D0D8B20AC24FF00D2BF55 /* MGCameraView */,
 				177D0D6D20AC229500D2BF55 /* AppDelegate.h */,
 				177D0D6E20AC229500D2BF55 /* AppDelegate.m */,
 				177D0D7020AC229500D2BF55 /* ViewController.h */,
 				177D0D7120AC229500D2BF55 /* ViewController.m */,
 				177D0D7320AC229500D2BF55 /* Main.storyboard */,
+				177D0D8320AC248D00D2BF55 /* MGCameraViewVC.h */,
+				177D0D8420AC248D00D2BF55 /* MGCameraViewVC.m */,
+				177D0D8520AC248D00D2BF55 /* MGCameraViewVC.xib */,
 				177D0D7620AC229500D2BF55 /* Assets.xcassets */,
 				177D0D7820AC229500D2BF55 /* LaunchScreen.storyboard */,
 				177D0D7B20AC229500D2BF55 /* Info.plist */,
 				177D0D7C20AC229500D2BF55 /* main.m */,
 			);
 			path = MGCameraViewDemo;
+			sourceTree = "<group>";
+		};
+		177D0D8B20AC24FF00D2BF55 /* MGCameraView */ = {
+			isa = PBXGroup;
+			children = (
+				177D0D8820AC24EC00D2BF55 /* MGCameraView.h */,
+				177D0D8920AC24EC00D2BF55 /* MGCameraView.m */,
+				171CECCE20BFAB2A001F28C2 /* MGAssetWriteManager.h */,
+				171CECCF20BFAB2A001F28C2 /* MGAssetWriteManager.m */,
+			);
+			path = MGCameraView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				177D0D8720AC248E00D2BF55 /* MGCameraViewVC.xib in Resources */,
 				177D0D7A20AC229500D2BF55 /* LaunchScreen.storyboard in Resources */,
 				177D0D7720AC229500D2BF55 /* Assets.xcassets in Resources */,
 				177D0D7520AC229500D2BF55 /* Main.storyboard in Resources */,
@@ -142,8 +169,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				177D0D8620AC248D00D2BF55 /* MGCameraViewVC.m in Sources */,
 				177D0D7220AC229500D2BF55 /* ViewController.m in Sources */,
+				171CECD020BFAB2A001F28C2 /* MGAssetWriteManager.m in Sources */,
 				177D0D7D20AC229500D2BF55 /* main.m in Sources */,
+				177D0D8A20AC24EC00D2BF55 /* MGCameraView.m in Sources */,
 				177D0D6F20AC229500D2BF55 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +311,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C6ZPG7YSCJ;
 				INFOPLIST_FILE = MGCameraViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mige.MGCameraViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +326,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C6ZPG7YSCJ;
 				INFOPLIST_FILE = MGCameraViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mige.MGCameraViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
